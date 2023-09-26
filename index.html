@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <h2>Digite os números</h2>
+        <h3>*O <b>segundo valor tem que ser maior</b></h3>
+        <div>
+            <form id="valid">
+                <input type="number" required id="number1" placeholder="Digite um número">
+                <input type="number" required id="number2" placeholder="Digite outro número">
+                <button type="submit" id="btn-valid">Validar</button>
+            </form>
+            <p class="success-message" ></p>
+            <p class="error-msg"></p>
+            <p class="equal-msg"></p>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
